@@ -69,14 +69,38 @@ Anthropic's prompt engineering course with Amazon Bedrock integration examples.
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/CodewithWitcher/Interview-prep.git
-cd Interview-prep
+git clone https://github.com/CodewithWitcher/interview-questions-for-ai-ml-react-javascript-python-devOps-and-many-more.git
+cd interview-questions-for-ai-ml-react-javascript-python-devOps-and-many-more
 ```
 
 1. **Pick your target role** — navigate to the relevant section above
 2. **Work through questions** — each file is self-contained with Q&A
 3. **Practice coding** — use the Python scripts, coding challenges, and DSA patterns
 4. **Review before interviews** — use the READMEs in each folder as quick-reference guides
+
+### 🛠️ Clone / Copy Troubleshooting (Important)
+
+If someone gets a **"442"** error while trying to copy this repo, it is usually an **HTTP 422** from using an unsupported command such as:
+
+- `git archive --remote=<repo-url> main`
+
+This repository is healthy and publicly clonable. Please use one of these supported methods instead:
+
+```bash
+git clone https://github.com/CodewithWitcher/interview-questions-for-ai-ml-react-javascript-python-devOps-and-many-more.git
+```
+
+Or from GitHub UI:
+
+- **Code → HTTPS/SSH URL → Clone**
+- **Code → Download ZIP**
+- **Fork** the repository
+
+If cloning still fails:
+
+1. Check internet/proxy/firewall restrictions
+2. Update Git to a recent version
+3. Retry with HTTPS if SSH is blocked
 
 ---
 
@@ -101,6 +125,22 @@ Contributions are welcome! Feel free to:
 1. Fork the repository
 2. Add questions, answers, or new topic folders
 3. Open a pull request
+
+### Contributor Guidelines
+
+- Keep changes focused (one topic/fix per PR)
+- Preserve folder structure and file naming conventions
+- Prefer Markdown (`.md`) for questions/answers and explanations
+- Add references/attribution when using external learning material
+- For code samples, include short comments and runnable snippets where possible
+
+### Suggested PR Checklist
+
+- [ ] Content is accurate and interview-relevant
+- [ ] Grammar/spelling reviewed
+- [ ] Links and internal file paths work
+- [ ] New files are placed in the correct section
+- [ ] README updated if structure/content changed
 
 ---
 
