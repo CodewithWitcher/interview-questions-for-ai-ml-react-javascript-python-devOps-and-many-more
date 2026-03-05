@@ -1,0 +1,1 @@
+The question in pdf have ai ml questions along with some real world question pdf also.
